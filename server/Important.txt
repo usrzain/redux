@@ -1,0 +1,11 @@
+we can add error handeler function also 
+
+function  errorHandeler (err, req,res,next){
+    if(err.status === 401){
+        console.log(' not get ' )
+    }
+}
+
+
+
+and put that function or call that function at the end of application on server side 
